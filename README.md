@@ -136,7 +136,7 @@ graph TD
     J --> U[Change Docs<br/>Changelog, Release Notes]
 ```
 
-- Now that you understand the content types and patterns that best serve your users, you can create a documentation plan.
+- Understand the content types and patterns that best serve your users, this will help us create a documentation plan.
 - A documentation plan functions as a flexible outline, making it easy to map out a user journey through the content you write.
 - A good plan helps you anticipate and meet your user’s needs for information.
 - The plan allows you to coordinate writing, organizing, and publishing your documentation with other stakeholders.
