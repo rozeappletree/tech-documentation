@@ -193,3 +193,41 @@ graph TD
     
     H --> H1[Consistent structure/format]
 ```
+
+
+## IV. Editing Documentation
+
+```mermaid
+graph TD
+    A[IV. Editing Documentation] --> B[Editing to Meet User Needs]
+    A --> C[Approaches - Passes]
+    A --> D[Editing Process - Collaborative]
+    A --> E[Giving Good Feedback]
+    
+    B --> B1[Analytical act, separate from writing]
+    
+    C --> C1[Technical Accuracy]
+    C --> C2[Completeness]
+    C --> C3[Structure]
+    C --> C4[Clarity and Brevity]
+    
+    C1 --> C1a[Correctness, follow instructions, check jargon]
+    C2 --> C2a[Fill gaps, check prerequisites/versions]
+    C3 --> C3a[Verify signposts, title/headers, follow template]
+    C4 --> C4a[Refactoring docs, cut unnecessary words]
+    
+    D --> D1[Reviewing document first]
+    D --> D2[Requesting a peer review]
+    D --> D3[Requesting a technical review]
+    D --> D4[Receiving and Integrating Feedback]
+    
+    D1 --> D1a[Use checklist]
+    D2 --> D2a[Useful and relevant feedback]
+    D3 --> D3a[Confirm technical understanding]
+    D4 --> D4a[Acknowledge, prioritize, follow up]
+    
+    E --> E1[Use 'Plussing']
+    E --> E2[Focus on the idea, not the person]
+    
+    E1 --> E1a[Criticize + Constructive Suggestion] 
+```
