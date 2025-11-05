@@ -262,3 +262,41 @@ graph TB
     Tooling --> Autogen["Autogenerating samples<br/>(human input/review still needed)"]
     
 ```
+
+## VI. VI. Adding Visual Content
+
+```mermaid
+graph TD
+    A[VI. Adding Visual Content] --> B[When Words Aren't Enough]
+    A --> C[Challenges]
+    A --> D[Using Screenshots]
+    A --> E[Common Diagram Types]
+    A --> F[Drawing Diagrams]
+    A --> G[Creating Video Content]
+    A --> H[Reviewing/Maintaining Visual Content]
+    
+    B --> B1[Brain processes images fast]
+    
+    C --> C1[Ineffective Visual Content]
+    C1 --> C2[Comprehension: must be relevant, not just aesthetic]
+    C1 --> C3[Accessibility: Alt text, color contrast, legible font]
+    C1 --> C4[Performance: File size affects load speeds]
+    
+    D --> D1[Close to instructions, clean, not sole source of info]
+    D --> D2[Annotate/Use Alt text or full description in text body]
+    
+    E --> E1[Boxes and Arrows: Depict flow/relationship]
+    E --> E2[Flowcharts: Guide user Start to Finish, decision points]
+    E --> E3[Swimlanes: Useful for multiple contributors/actors]
+    
+    F --> F1[Simplify to amplify]
+    F1 --> F2[Illustrate only one idea per diagram/abstraction level]
+    F1 --> F3[Start on paper/sticky notes]
+    F1 --> F4[Find clear starting point - top-left for Western audiences]
+    F1 --> F5[Use clear labels/consistent colors]
+    F1 --> F6[Publish as SVG - scalable]
+    
+    G --> G1[High maintenance, high risk; use professional help]
+    
+    H --> H1[Use Chapter 4 editing process, share source files]
+```
