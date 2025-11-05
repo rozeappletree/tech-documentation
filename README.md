@@ -349,3 +349,91 @@ graph TD
     E --> E1[Builds trust]
     
 ```
+
+## IX. Measuring Documentation Quality
+
+```mermaid
+graph TD
+    A[Measuring Documentation Quality] --> B[Core Principle]
+    A --> C[Functional Quality]
+    A --> D[Structural Quality]
+    A --> E[Analytics Strategy]
+    A --> F[Tips for Using Metrics]
+    
+    B --> B1[A document is good when<br/>it fulfills its purpose]
+    
+    C --> C1[Does it work?]
+    C1 --> C2[Accessible]
+    C1 --> C3[Purposeful]
+    C1 --> C4[Findable]
+    C1 --> C5[Accurate]
+    C1 --> C6[Complete]
+    
+    C2 --> C2A[Language & Reading Level]
+    C2 --> C2B[WCAG Compliance]
+    
+    C3 --> C3A[States Goal Clearly]
+    C3 --> C3B[Measures Time to Hello World]
+    
+    C4 --> C4A[Site Architecture]
+    C4 --> C4B[Search Keywords]
+    C4 --> C4C[Deep Navigation]
+    
+    C5 --> C5A[Correct & Up-to-date]
+    C5 --> C5B[Working Code Samples]
+    
+    C6 --> C6A[All Prerequisites Included]
+    C6 --> C6B[All Tasks Covered]
+    C6 --> C6C[Next Steps Provided]
+    
+    D --> D1[Is it well-written?]
+    D1 --> D2[Clear]
+    D1 --> D3[Concise]
+    D1 --> D4[Consistent]
+    
+    D2 --> D2A[Easy to Understand]
+    D2 --> D2B[Well-ordered Headers]
+    D2 --> D2C[No Jargon]
+    
+    D3 --> D3A[Brief but Comprehensive]
+    D3 --> D3B[Remove Unnecessary Words]
+    
+    D4 --> D4A[Structure]
+    D4 --> D4B[Concepts]
+    D4 --> D4C[Word Choice]
+    
+    E --> E1[Align Goals]
+    E1 --> E2[Organizational Goals]
+    E1 --> E3[User Goals]
+    E1 --> E4[Documentation Goals]
+    
+    E2 --> E2A[Adoption]
+    E2 --> E2B[Retention]
+    E2 --> E2C[Cost Reduction]
+    
+    E3 --> E3A[Specific Task Completion]
+    
+    E4 --> E4A[Unique Visitors]
+    E4 --> E4B[Time to Hello World]
+    E4 --> E4C[Bounce Rate]
+    E4 --> E4D[Link Validation]
+    
+    F --> F1[Make a Plan]
+    F --> F2[Establish a Baseline]
+    F --> F3[Consider Context]
+    F --> F4[Use Clusters of Metrics]
+    F --> F5[Mix Feedback Types]
+    
+    F1 --> F1A[Why Measure?]
+    F1 --> F1B[What Will You Do?]
+    
+    F2 --> F2A[Compare Changes Over Time]
+    
+    F3 --> F3A[Error Codes vs Getting Started]
+    F3 --> F3B[High Page Views Have Different Meanings]
+    
+    F4 --> F4A[Better Answers Than Single Metric]
+    
+    F5 --> F5A[Qualitative Feedback]
+    F5 --> F5B[Quantitative Feedback]
+```
