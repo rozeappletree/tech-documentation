@@ -22,3 +22,5 @@ By treating documentation with the same rigor and process-oriented mindset as so
 2. **Content Creation and Authoring:** Drafting text and integrating essential code samples and visuals.
 3. **Quality Assurance and Release:** Refining content through a structured editing and review process before publishing.
 4. **Lifecycle Management:** Gathering feedback, measuring quality, and maintaining the documentation's integrity over time.
+
+<img width="1250" height="480" alt="image" src="https://github.com/user-attachments/assets/dc343d25-5db1-4b1b-8d27-063680d5acbb" />
