@@ -43,3 +43,64 @@ Principle 11 steps detailing the documentation workflow:
 11. **Maintaining and deprecating documentation:** Covers planning for ongoing maintenance, assigning document owners, automating toil (e.g., freshness checks and linters), and correctly deprecating or deleting content that is no longer useful or accurate
 
   
+---
+
+# 1. Understanding Audience
+
+```mermaid
+graph TD
+    Root["I. Understanding Your Audience"]
+    
+    Root --> Curse["The Curse of Knowledge"]
+    Root --> Sketch["Initial User Sketch"]
+    Root --> Validate["Validate User Understanding (Research)"]
+    Root --> Condense["Condensing Research Findings"]
+    Root --> Friction["Creating a Friction Log (record user experience)"]
+    
+    Curse --> CurseA["Humans assume shared knowledge"]
+    Curse --> CurseB["Break the curse with empathy"]
+    
+    Sketch --> SketchA["Define user goals (Engineering & Business)"]
+    Sketch --> SketchB["Identify who users are"]
+    Sketch --> SketchC["Outline user needs (questions docs must answer)"]
+    
+    SketchB --> UserA["Role (Developer, SRE, PM)"]
+    SketchB --> UserB["Experience/Situation"]
+    SketchB --> UserC["Characteristics (Skill, Language, OS)"]
+    
+    Validate --> ValidA["Existing Data Sources"]
+    Validate --> ValidB["Collecting New Data"]
+    
+    ValidA --> ExistA["Support tickets (group by theme)"]
+    ValidA --> ExistB["Developer relations/UX/Marketing teams"]
+    
+    ValidB --> NewA["Direct interviews (open questions)"]
+    ValidB --> NewB["Developer surveys (quick & painless, targeted questions)"]
+    
+    Condense --> CondA["User Personas (semi-fictional character)"]
+    Condense --> CondB["User Stories (As a [user], I want [activity] so I can [goal])"]
+    Condense --> CondC["User Journey Maps (timeline of user path/feelings)"]
+```
+
+Understanding your audience is the first and most essential step in the documentation creation process. This step focuses on establishing empathy for users, which is required to write effective documentation.
+
+The core objective of this initial phase is to overcome the _"curse of knowledge,"_ a cognitive bias where writers assume others possess the same knowledge they do. This curse can lead to using jargon or omitting crucial information.
+
+Here are the key components of this phase, designed to break the curse of knowledge and set users on the path to success:
+
+- **Creating an Initial Sketch of Your Users:** To write effectively, writers must first understand who their users are and what they want to achieve.
+- **Define User Goals:** Research is guided by understanding what users want to accomplish by reading the documentation. Documentation must align with both the engineering goal (what the user wants) and the business goal (what the organization wants).
+- **Understand User Identity:** Users can be defined by their role (e.g., developers, product managers), level of experience (e.g., junior developers), or the situation they are in (e.g., using documentation at 4 a.m. after a pager alert). Because not every user's needs can be met, writers must prioritize the users most important for the product or business.
+- **Outline User Needs:** This involves listing the specific questions documentation must answer, ranging from general (e.g., "How do I get started?") to product-specific (e.g., "How do I authenticate against your API?"). During research, the distinction between user wants (e.g., a sports car) and user needs (e.g., a bus ticket) must be identified.
+Validating User Understanding (User Research)
+The initial sketch of users, goals, and needs must be validated through user research.
+- **Existing Data Sources:** Support tickets are considered a "gold mine" for understanding user needs, as they reveal what frustrated users require most. Other organizational teams like developer relations, product support, UX, and marketing can also provide valuable insights. Support issues should be grouped by themes, such as topic, process, or user type, to identify patterns.
+- **Collecting New Data:** If existing data is insufficient, new data can be collected through direct interviews and developer surveys.
+  - **Direct Interviews:** These are used to "dig a little deeper" into pressing issues, emphasizing quality over quantity of participants. Interviews should use specific, open questions (questions that elicit stories and detailed explanations) rather than closed, yes-or-no questions.
+  - **Developer Surveys:** These provide actionable and immediate insights from a large group but must be quick, painless, and focused on targeted, closed questions.
+Condensing and Applying Findings
+Research results must be condensed into tangible records for use in subsequent writing stages.
+- **User Personas:** These are semi-fictional characters representing the ideal reader, compiling essential characteristics like developer skill, languages, environment, and role. Personas help the writer focus on the users who need the most help, such as junior developers.
+- **User Stories:** These are short summaries of what a user is trying to achieve, following the format: "As a [type of user], I want [activity] so that I can [goal]".
+- **User Journey Maps:** These are diagrams illustrating the path a user takes through a product to accomplish a task, highlighting points of happiness or areas for improvement.
+- **Friction Log:** A journal where the developer uses the software as a newcomer would, recording the difference between expected and actual behavior at each sequential step. Noticing "friction" (frustration, anger) helps identify opportunities to improve documentation or the product itself.
