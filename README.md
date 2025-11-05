@@ -437,3 +437,27 @@ graph TD
     F5 --> F5A[Qualitative Feedback]
     F5 --> F5B[Quantitative Feedback]
 ```
+
+
+## X. Organizing Documentation
+
+```mermaid
+graph TD
+    A[X. Organizing Documentation] --> B[Information Architecture IA organizes content]
+    A --> C[Helping Readers Find Their Way Mental Model]
+    A --> D[Organizing IA]
+    
+    C --> E[Site Navigation/Organization]
+    C --> F[Landing Pages Route users, minimal reading, guardrails]
+    C --> G[Navigation Cues Breadcrumbs, side navigation, metadata, escape hatches]
+    
+    D --> H[Assess Existing Content Keep, Remove, Review, Merge, Split]
+    D --> I[Outline New IA Consistent, Relevant, Findable]
+    D --> J[Migrate to New IA Use validation checklist, implement redirects]
+    D --> K[Maintaining IA Document decisions, scale consistently]
+    
+    E --> L[Sequences chronological/alphabetical]
+    E --> M[Hierarchies parent/child relationship]
+    E --> N[Webs interconnected, non-hierarchical]
+```
+
