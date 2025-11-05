@@ -320,3 +320,32 @@ graph TD
     G --> K[Test docs - manual/automated testing]
     G --> L[Set criteria for stopping a release]
 ```
+
+## VIII. Gathering & Integrating Feedback
+
+
+```mermaid
+graph TD
+    A[VIII. Gathering & Integrating Feedback]
+    
+    A --> B[Listening to Users]
+    A --> C[Creating Feedback Channels]
+    A --> D[Converting Feedback into Action]
+    A --> E[Following up with users]
+    
+    B --> B1[Validate assumptions]
+    B --> B2[Learn where product/docs succeed]
+    
+    C --> C1[Direct feedback on pages<br/>Issue templates]
+    C --> C2[Monitor support issues<br/>Find common trends]
+    C --> C3[Collect document sentiment<br/>Helpful? Yes/No]
+    C --> C4[Create user surveys<br/>CSAT, focused questions]
+    C --> C5[Create a user council<br/>Dedicated group for input]
+    
+    D --> D1[Step 1: Is the issue valid?<br/>Relevant to documentation]
+    D --> D2[Step 2: Can the issue be fixed?<br/>Original, Reproducible, Scoped]
+    D --> D3[Step 3: How important is the issue?<br/>P0/P1/P2/P3 priorities]
+    
+    E --> E1[Builds trust]
+    
+```
