@@ -263,7 +263,7 @@ graph TB
     
 ```
 
-## VI. VI. Adding Visual Content
+## VI. Adding Visual Content
 
 ```mermaid
 graph TD
