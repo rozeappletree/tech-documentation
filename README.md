@@ -461,3 +461,29 @@ graph TD
     E --> N[Webs interconnected, non-hierarchical]
 ```
 
+## XI. Maintaining & Deprecating Docs
+
+```mermaid
+graph TD
+    A[XI. Maintaining & Deprecating Docs]
+    
+    A --> B[Keep documentation up-to-date<br/>to maintain user trust]
+    A --> C[Planning for Maintainability]
+    A --> D[Automating Maintenance<br/>Eliminate Toil]
+    A --> E[Removing Content]
+    
+    C --> C1[User Impact Analysis<br/>budget time for docs]
+    C --> C2[Align documentation with<br/>release processes<br/>e.g., Kubernetes model]
+    C --> C3[Assign Document Owners<br/>clear responsibility]
+    C --> C4[Reward Document Maintenance<br/>recognition/rewards]
+    
+    D --> D1[Content Freshness Checks<br/>review reminders]
+    D --> D2[Link Checkers<br/>verify links are not broken]
+    D --> D3[Linters<br/>prose linters catch<br/>grammar/style issues]
+    D --> D4[Reference Doc Generators<br/>e.g., OpenAPI, Javadoc]
+    
+    E --> E1[Deprecating Documentation<br/>Notify users, link to new feature,<br/>migration guide]
+    E --> E2[Deleting Documentation<br/>Remove outdated/irrelevant content,<br/>give notice, update links]
+```
+
+
