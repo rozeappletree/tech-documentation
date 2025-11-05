@@ -231,3 +231,34 @@ graph TD
     
     E1 --> E1a[Criticize + Constructive Suggestion] 
 ```
+
+## V. Integrating Code Samples
+
+```mermaid
+graph TB
+    Root["V. Integrating Code Samples"]
+    
+    Root --> Importance["Code samples are critical<br/>(developers seek code)"]
+    
+    Root --> Types["Types of Samples"]
+    Types --> Executable["Executable<br/>(runnable, copy/paste)"]
+    Types --> Explanatory["Explanatory<br/>(output, error code, non-runnable)"]
+    
+    Root --> Principles["Principles of Good Samples"]
+    Principles --> Explained["Explained<br/>(prerequisites, intent, match output)"]
+    Principles --> Concise["Concise<br/>(essential info only, short lines, use ellipsis)"]
+    Principles --> Clear["Clear<br/>(Refactor if complex, follow style conventions)"]
+    Principles --> Usable["Usable/Extensible<br/>(Descriptive strings for replacement data)"]
+    Principles --> Trustworthy["Trustworthy<br/>(Production-ready, test regularly)"]
+    
+    Root --> Design["Designing Samples"]
+    Design --> Language["Choosing a language<br/>(primary user language)"]
+    Design --> Complexity["Highlighting complexity range<br/>(hello world to complex examples)"]
+    Design --> Presentation["Presentation<br/>(Visually distinct, fixed-width font)"]
+    
+    Root --> Tooling["Tooling"]
+    Tooling --> Testing["Testing code samples<br/>(store in repo, run tests)"]
+    Tooling --> Sandboxing["Sandboxing code<br/>(allows safe interaction)"]
+    Tooling --> Autogen["Autogenerating samples<br/>(human input/review still needed)"]
+    
+```
