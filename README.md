@@ -45,7 +45,7 @@ Principle 11 steps detailing the documentation workflow:
   
 ---
 
-# 1. Understanding Audience
+# I. Understanding Your Audience
 
 ```mermaid
 graph TD
@@ -103,4 +103,52 @@ Research results must be condensed into tangible records for use in subsequent w
 - **User Personas:** These are semi-fictional characters representing the ideal reader, compiling essential characteristics like developer skill, languages, environment, and role. Personas help the writer focus on the users who need the most help, such as junior developers.
 - **User Stories:** These are short summaries of what a user is trying to achieve, following the format: "As a [type of user], I want [activity] so that I can [goal]".
 - **User Journey Maps:** These are diagrams illustrating the path a user takes through a product to accomplish a task, highlighting points of happiness or areas for improvement.
-- **Friction Log:** A journal where the developer uses the software as a newcomer would, recording the difference between expected and actual behavior at each sequential step. Noticing "friction" (frustration, anger) helps identify opportunities to improve documentation or the product itself.
+- **Friction Log:** A journal where the developer uses the software as a newcomer would, recording the difference between expected and actual behavior at each sequential step. Noticing "friction" (frustration, anger) helps identify opportunities to improve documentation or the product itself. 
+
+# II. Planning Your Documentation
+
+```mermaid
+graph TD
+    A[II. Planning Your Documentation] --> B[Plans and Patterns<br/>Content Types solve problems]
+    A --> C[Content Types]
+    A --> D[Creating a Documentation Plan]
+    
+    C --> E[Code Comments]
+    C --> F[READMEs<br/>Summary, Installation,<br/>Troubleshooting, Links]
+    C --> G[Getting Started<br/>Critical first impression,<br/>quick integration]
+    C --> H[Conceptual Docs<br/>Concepts/ideas behind service,<br/>avoid implementation]
+    C --> I[Procedural Docs<br/>How-to guides/Tutorials]
+    C --> J[Reference Docs<br/>Cause and Effect]
+    
+    D --> K[Define audience/takeaways/<br/>features/expectations]
+    D --> L[Content Outline<br/>List of titles and content types]
+    
+    E --> M[Brief, relevant,<br/>liberally used]
+    E --> N[Document design<br/>decisions/tradeoffs]
+    
+    I --> O[Tutorials<br/>Teach specific goal,<br/>test integration]
+    I --> P[How-To Guides<br/>Solve business problems,<br/>real code]
+    I --> Q[Use escape hatches<br/>for misdirection]
+    
+    J --> R[API Reference<br/>Resources, endpoints,<br/>examples, errors]
+    J --> S[Glossary<br/>Consistent definitions,<br/>avoid external links]
+    J --> T[Troubleshooting<br/>Workarounds, avoid explanation,<br/>list error messages]
+    J --> U[Change Docs<br/>Changelog, Release Notes]
+```
+
+- Now that you understand the content types and patterns that best serve your users, you can create a documentation plan.
+- A documentation plan functions as a flexible outline, making it easy to map out a user journey through the content you write.
+- A good plan helps you anticipate and meet your user’s needs for information.
+- The plan allows you to coordinate writing, organizing, and publishing your documentation with other stakeholders.
+- A plan helps identify gaps and shortcomings not just within your documentation, but across the entire user journey for your service.
+- If you start writing documentation before creating a plan, you might miss critical information your users need or overlook problems they are trying to solve.
+- To build your documentation plan, you should answer questions like identifying your target audience and listing the most important features being released.
+- Answering these crucial questions creates context and allows you to decide what content to build.
+- You should begin planning your documentation with a content outline.
+- Your content outline should list the titles for the pages you need to write and each page’s corresponding content type.
+- If your documentation plan reflects a coherent journey for your users, you are likely in good shape.
+- If the plan feels like a maze or if a user’s path to accomplishing a task is unclear, you should go back and reshape the documentation plan.
+- You should get feedback from others on your documentation plan before you begin the writing stage.
+- Once the documentation plan is complete, you can begin listing additional items your documentation needs, such as integrating code samples or visual content.
+
+
