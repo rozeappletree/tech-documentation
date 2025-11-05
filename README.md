@@ -45,7 +45,7 @@ Principle 11 steps detailing the documentation workflow:
   
 ---
 
-# I. Understanding Your Audience
+## I. Understanding Your Audience
 
 ```mermaid
 graph TD
@@ -105,7 +105,7 @@ Research results must be condensed into tangible records for use in subsequent w
 - **User Journey Maps:** These are diagrams illustrating the path a user takes through a product to accomplish a task, highlighting points of happiness or areas for improvement.
 - **Friction Log:** A journal where the developer uses the software as a newcomer would, recording the difference between expected and actual behavior at each sequential step. Noticing "friction" (frustration, anger) helps identify opportunities to improve documentation or the product itself. 
 
-# II. Planning Your Documentation
+## II. Planning Your Documentation
 
 ```mermaid
 graph TD
@@ -151,4 +151,45 @@ graph TD
 - You should get feedback from others on your documentation plan before you begin the writing stage.
 - Once the documentation plan is complete, you can begin listing additional items your documentation needs, such as integrating code samples or visual content.
 
+## III. Drafting Documentation
 
+```mermaid
+graph TD
+    A[III. Drafting Documentation]
+    
+    A --> B[Set up for Success]
+    A --> C[Define Title and Goal]
+    A --> D[Create Outline]
+    A --> E[Drafting Content Elements]
+    A --> F[Writing for Skimming]
+    A --> G[Getting Unstuck]
+    A --> H[Working from Templates]
+    
+    B --> B1[Use familiar tools]
+    
+    C --> C1[Shortest, clearest<br/>rephrasing of purpose]
+    
+    D --> D1[List all steps/parts<br/>of concept]
+    D --> D2[Order must meet reader's<br/>expectations/needs]
+    
+    E --> E1[Headers]
+    E --> E2[Paragraphs]
+    E --> E3[Procedures]
+    E --> E4[Lists]
+    E --> E5[Callouts]
+    
+    E1 --> E1A[Signposts, brief,<br/>unique, consistent]
+    E2 --> E2A[Context, limit to<br/>5 sentences or fewer]
+    E3 --> E3A[Numbered lists, one action<br/>per step, verification]
+    E4 --> E4A[Group related info,<br/>skimmable, order helpfully]
+    E5 --> E5A[Warning, Caution, Note;<br/>highlight critical info]
+    
+    F --> F1[State most important<br/>info first<br/>first 3 paragraphs]
+    F --> F2[Break up large blocks<br/>of text<br/>subheaders, lists, visuals]
+    F --> F3[Break up long documents<br/>by audience/topic/feature]
+    F --> F4[Strive for simplicity<br/>and clarity<br/>concise docs are beautiful]
+    
+    G --> G1[Ask for help, highlight<br/>missing content,<br/>write out of sequence]
+    
+    H --> H1[Consistent structure/format]
+```
