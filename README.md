@@ -298,5 +298,5 @@ graph TD
     
     G --> G1[High maintenance, high risk; use professional help]
     
-    H --> H1[Use Chapter 4 editing process, share source files]
+    H --> H1[Use editing process, share source files]
 ```
