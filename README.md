@@ -42,6 +42,11 @@ Principle 11 steps detailing the documentation workflow:
 10. **Organizing documentation:** Involves establishing the information architecture—using combinations of sequences, hierarchies, and webs—to help readers build a mental map of the content, often utilizing navigation cues and landing pages.
 11. **Maintaining and deprecating documentation:** Covers planning for ongoing maintenance, assigning document owners, automating toil (e.g., freshness checks and linters), and correctly deprecating or deleting content that is no longer useful or accurate
 
+
+[![doc-workflow-mmap-gif](https://github.com/user-attachments/assets/e632e885-70e9-4a03-b182-7dd1f9f1d4ed)](https://raw.githubusercontent.com/rozeappletree/tech-documentation/refs/heads/main/doc-workflow.drawio.svg)
+
+
+
   
 ---
 
