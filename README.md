@@ -45,7 +45,7 @@ Principle 11 steps detailing the documentation workflow:
 
 [![doc-workflow-mmap-gif](https://github.com/user-attachments/assets/e632e885-70e9-4a03-b182-7dd1f9f1d4ed)](https://raw.githubusercontent.com/rozeappletree/tech-documentation/refs/heads/main/doc-workflow.drawio.svg)
 
-
+👉 [Click here to see the entire mindmap in one place.](https://raw.githubusercontent.com/rozeappletree/tech-documentation/refs/heads/main/doc-workflow.drawio.svg)
 
   
 ---
